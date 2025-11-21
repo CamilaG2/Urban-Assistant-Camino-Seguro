@@ -63,6 +63,15 @@ En la carpeta de model no solamente encontrarás tu modelo, también encontrará
 2. Windows 10/11
 3. CPU (no requiere GPU)
 4. Cámara web
+5. Si quieres probarlo con tu celular:
+    - Descarga la aplicación IP Webcam.
+    - Asegurate que tu computador y celular tengan la misma red de internet.
+    - Al ingresar en la aplicación, te vas hasta lo último y oprimes donde dice _"Iniciar servidor"_.
+    - En el archivo _config.py_:
+        - Te vas hasta abajo y buscas donde diga _"Cámara"_
+        - Comentas "CAMERA_SOURCE = 0" y descomentas CAMERA_SOURCE = "http://TU_IP_DEL_CELU:8080/video"
+        - TU_IP_DEL_CELU: Al iniciar el servidor, tu camara se activará y te mostrará en la parte inferior "IPv4:http://###.###.#.##:8080", pones solamente esos números, recuerda no borrar el _"/video"_ del código.
+        - Guardas y corres el main.
 
 ## ▶️ Cómo Ejecutar el Sistema
 
@@ -100,7 +109,5 @@ En la carpeta de model no solamente encontrarás tu modelo, también encontrará
         python -m src.main
     ```
 ## 👩🏽 Autor
-
-Autor: Maria Camila García Ramírez
-
+Autor: Maria Camila García Ramírez\\
 Proyecto académico – Universidad del Rosario
