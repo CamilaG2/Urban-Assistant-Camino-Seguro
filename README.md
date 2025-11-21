@@ -54,6 +54,21 @@ El sistema combina:
 ```
 En la carpeta de model no solamente encontrarás tu modelo, también encontrarás el rendimiento, metricas y ajustes.
 
+## 📦 Requisitos del sistema
+
+1. Versión de Python Requerida
+
+    Este proyecto fue desarrollado y probado en:
+
+        ```
+            Python 3.10.x
+        ```
+    No funcionará correctamente con Python 3.12 o superior debido a incompatibilidades con PyTorch, MiDaS y TensorFlow Lite.
+
+2. Windows 10/11
+3. CPU (no requiere GPU)
+4. Cámara web
+
 ## ▶️ Cómo Ejecutar el Sistema
 
 1. Descargar Dataset + Modelo Entrenado (TFLite)
