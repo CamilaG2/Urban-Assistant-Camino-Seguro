@@ -23,6 +23,7 @@ CONFIDENCE_THRESHOLD = 0.6
 # CÁMARA
 # ----------------------------------------------
 CAMERA_SOURCE = 0        # Webcam del PC
+#CAMERA_SOURCE = "http://TU_IP_DEL_CELU:8080/video"       # Camara del celular revisa tu IP
 
 # ----------------------------------------------
 # PROFUNDIDAD / MiDaS
