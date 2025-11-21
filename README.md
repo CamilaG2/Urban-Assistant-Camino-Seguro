@@ -52,7 +52,7 @@ El sistema combina:
     └── README.md
 
 ```
-En la carpeta de models no solamente encontrarás tu modelo, también encontrarás el rendimiento, metricas y ajustes
+En la carpeta de model no solamente encontrarás tu modelo, también encontrarás el rendimiento, metricas y ajustes.
 
 ## ▶️ Cómo Ejecutar el Sistema
 
@@ -61,7 +61,8 @@ En la carpeta de models no solamente encontrarás tu modelo, también encontrar�
     _Para ejecutar el proyecto necesitas descargar la carpeta data/ y la carpeta model/:_
 
     ### 👉 Descargar aquí (Google Drive):
-        * 🔗 https://drive.google.com/drive/folders/1PPg40q32DGuAmBE8CZhlbE8wCzwRQbW3?usp=drive_link
+
+        🔗 https://drive.google.com/drive/folders/1PPg40q32DGuAmBE8CZhlbE8wCzwRQbW3?usp=drive_link
 
         Colócalas en la raíz del proyecto de esta forma:
 
@@ -72,7 +73,7 @@ En la carpeta de models no solamente encontrarás tu modelo, también encontrar�
                 │── src/
                 │── Documento.pdf
                 │── README.md
-                |── requirements.txt
+                └── requirements.txt
 
             ```
 2. Crea un entorno virtual y activalo
